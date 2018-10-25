@@ -1,0 +1,28 @@
+<input #textbox>
+<button (click)="add(textbox.value); textbox.value=''">Add task</button>
+<h3 *ngFor="let arr of textarray">{{arr}}
+</h3>
+
+<p [appHighlight]="'yellow'">
+    abddcs
+</p>
+<p>The hero's birthday is {{ birthday | date }}</p>
+<p>{{title | uppercase}}</p>
+<p>{{'TINA' | lowercase}}</p>
+<p>{{'akshita'|captalizeFirst}}</p>
+
+<h3 *ngFor="let arr1 of divarray">{{arr1}}</h3>
+
+
+<div>
+    <p *ngIf="false">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam dolor officia alias molestiae eveniet
+        suscipit inventore aspernatur voluptatum totam ratione doloremque maiores doloribus beatae aperiam, distinctio
+        itaque ipsa incidunt. Aperiam.
+    </p>
+</div>
+<div>
+    <p style="display:none">
+       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, nisi nam quos expedita itaque ipsam tenetur reprehenderit ea cupiditate a assumenda similique accusamus natus harum quidem accusantium eum quam consequatur. 
+    </p>
+</div>
